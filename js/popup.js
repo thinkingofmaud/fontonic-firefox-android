@@ -284,29 +284,13 @@ getDomain().then((domain) => {
 // Load fonts into the  dropdowns
 const populateFonts = (element) => {
   [
-    "Inter",
-    "Nunito",
-    "Vollkorn",
-    "Playfair",
-    "Source Code Pro",
-    "Fira Code",
-    "Comic Neue",
-    // New
-    "Merriweather",
     "Atkinson Hyperlegible",
-    "Charis SIL",
-    // "DejaVu Sans Mono",
-    // Pre-installed fonts
-    "Cutive Mono",
-    "Noto Serif",
-    "Noto Sans",
-    "Roboto",
-    "Droid Sans Mono",
-    "Coming Soon",
-    "Dancing Script",
-    "Carrois Gothic SC",
-    "Source Sans Pro",
-    "One UI Sans App VF",
+    "Atkinson Hyperlegible Next",
+    "Fantasque Sans Mono",
+    "Inter",
+    "Lexend",
+    "Merriweather",
+    "Tinos"
   ].forEach((font) => {
     const option = document.createElement("option");
     option.value = font;
